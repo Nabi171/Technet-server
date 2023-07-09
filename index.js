@@ -84,7 +84,7 @@ const run = async () => {
 run().catch((err) => console.log(err));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('wellcome to techNet-Server!');
 });
 
 app.listen(port, () => {
